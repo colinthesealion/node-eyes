@@ -1,0 +1,31 @@
+{
+  "name": "the_eyes",
+  "version": "1.0.0",
+  "description": "Creepy window eyes",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && npm run start:start",
+    "start:start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Barringer",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "copy-webpack-plugin": "^4.0.0",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "opencv": "^6.0.0",
+    "raspicam": "^0.2.13",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "socket.io": "^1.5.0",
+    "webpack": "^1.13.2",
+    "winston": "^2.2.0"
+  }
+}

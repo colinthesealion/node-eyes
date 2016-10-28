@@ -1,0 +1,36 @@
+body {
+    background: black;
+}
+
+#boundaries {
+    height: 320px;
+    width: 480px;
+    background: black;
+    margin: auto;
+}
+
+.eye {
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    animation: rainbow 10s infinite alternate;
+}
+
+#right {
+    left: 335px;
+}
+
+.pupil {
+    position: relative;
+    background: black;
+    border-radius: 50%;
+}
+
+@keyframes rainbow { 
+    0% { background-color: red; }
+    20% { background-color: orange; }
+    40% { background-color: yellow; }
+    60% { background-color: green; }
+    80% { background-color: blue; }
+    100% { background-color: violet; }
+}

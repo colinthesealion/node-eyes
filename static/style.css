@@ -2,22 +2,11 @@ body {
     background: black;
 }
 
-#boundaries {
-    height: 320px;
-    width: 480px;
-    background: black;
-    margin: auto;
-}
-
 .eye {
     position: absolute;
     border-radius: 50%;
     background-color: red;
     animation: rainbow 10s infinite alternate;
-}
-
-#right {
-    left: 335px;
 }
 
 .pupil {

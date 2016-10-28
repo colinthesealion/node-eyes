@@ -1,7 +1,11 @@
 {
-  "name": "the_eyes",
+  "name": "node-eyes",
   "version": "1.0.0",
-  "description": "Creepy window eyes",
+  "description": "Eyes that track motion from a webcam or raspicam.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colinthesealion/node-eyes.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack",
